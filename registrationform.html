@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tD {
+            padding: 8px;
+        }
+
+        input,
+        #Caste {
+            width: 30vw;
+        }
+
+        body {
+            text-align: center;
+            border: 2px solid black;
+        }
+
+        table {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            width: 15vh;
+            height: 3vh;
+        }
+
+        .az {
+            width: 8.3vw;
+        }
+
+        .dp {
+            width: 10vw;
+            height: 25vh;
+            border: 2px dotted black;
+            position: relative;
+            left: 43.7vw;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <form action="Registration .php">
+        <big>
+
+            <header>
+                <h1>
+                    REC REGISTRATION FORM
+                </h1>
+            </header>
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa1oYeWd-0vFF46WIyqHe4cHxtdtD64w2W7A&usqp=CAU">
+            <br><br>
+            <div class="dp">
+                <br><br><br>
+                Passport Size <br>
+                Photo
+            </div>
+            <br>
+
+            <table>
+                <tr>
+                    <td><label for="id1">Name of the Student</label></td>
+                    <td><input type="text" id="id1" placeholder="Enter Name" required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="id2">Father's Name</label></td>
+                    <td><input type="text" id="id2" placeholder="Enter Father's Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id3">Mother's Name</label></td>
+                    <td><input type="text" id="id3" placeholder="Enter Mother's Name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id4">Date Of Birth</label></td>
+                    <td><input type="date" id="id4" placeholder="Enter Date Of Birth" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id5">Email Id</label></td>
+                    <td><input type="email" id="id5" placeholder="Enter Email Id" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id6">Religion</label></td>
+                    <td><input type="text" id="id6" placeholder="Enter Religion" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id7">caste</label> </td>
+                    <td>
+                        <select name="caste" id="Caste">
+                            <option value="caste">caste</option>
+                            <option value="General">General</option>
+                            <option value="SC">SC</option>
+                            <option value="ST">ST</option>
+                            <option value="OBC">OBC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id8">Admission Class</label></td>
+                    <td><input type="text" id="id8" placeholder="10th/12th" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id9">Father's Occupation</label></td>
+                    <td><input type="text" id="id9" placeholder="Enter Father's Occupation" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id10">Mother's Occupation</label></td>
+                    <td><input type="text" id="id10" placeholder="Not Necessary"></td>
+                </tr>
+                <tr>
+                    <td><label for="id11">Permanent Address</label></td>
+                    <td><input type="text" id="id11" placeholder="Address" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id12">Local Guardian(if any)</label></td>
+                    <td><input type="text" id="id12" placeholder="Guardian" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id13">Phone Number</label></td>
+                    <td><input type="number" id="id13" placeholder="Enter your Number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="id14">Relation with Guardian</label></td>
+                    <td><input type="text" id="id14" placeholder="Relation with Guardian"></td>
+                </tr>
+
+
+            </table>
+            <br>
+            <table border="black">
+                <tr>
+                    <td>Pass Out Class</td>
+                    <td>Hindi</td>
+                    <td>English</td>
+                    <td>Math</td>
+                    <td>Science</td>
+                    <td>social Science</td>
+                    <td>computer</td>
+                    <td>Sanskrit/Urdu</td>
+                    <td>Total</td>
+                    <td>Percentage %</td>
+                </tr>
+                <tr>
+                    <td>Obtaind Marks Out of 100</td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                    <td><input type="number" id="a1" class="az"></td>
+                </tr>
+
+            </table>
+            <br>
+            <p> I Mr./Mrs <input type="text" placeholder="Father/Mother Name"> Father's/Mother's/Guardian of <input
+                    type="text" placeholder="Student Name"> is ready to
+                follow up all the rules and regulations of the school.</p>
+            <pre>  Date <input type="date"placeholder="date
+                ">                 </pre>
+            <hr style="border-top: dotted 1px;" />
+            CERTIFICATION <br>
+            <p> This is to certify that
+                Mr./Mrs <input type="text"></p>
+            <p>had been admitted to
+                class <input type="text"></p>
+            <pre> <h3><b><p>www.discountscollegeforms.com                                                     Principal Name <input type="text"></p></b></h3>
+               </pre>
+            <button>Submit</button>
+            <br><br>
+
+        </big>
+    </form>
+
+
+</body>
+
+</html>
